@@ -55,7 +55,6 @@ function Api_call(subpageurl,schemaname){
 
 function Save_data(schemaname,ttl,linkop,image,sumr,dte){
   let sports;
-  console.log(schemaname)
   if(schemaname=="news_lifestyle"){
     sports = new news_lifestyle();
   }
